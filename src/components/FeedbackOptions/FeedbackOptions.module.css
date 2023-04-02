@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    gap: 5px;
+}
+
+.feedbackButton {
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.feedbackButton::first-letter {
+    text-transform:capitalize;
+}
+
+.feedbackButton:hover{
+  background-color: bisque;  
+}
